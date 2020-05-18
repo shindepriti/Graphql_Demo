@@ -11,3 +11,9 @@ const books = [
       author: 'Michael Crichton',
     },
   ];
+
+  const resolvers = {
+    Query: {
+      books: () => books,
+    },
+  };
